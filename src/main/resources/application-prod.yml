@@ -4,7 +4,7 @@ spring:
 #    url: jdbc:mysql://${rds.hostname}:${rds.port}/${rds.db.name}
 #    username: ${rds.username} # dyl0115
 #    password: ${rds.password} # endyd132!!
-    url: jdbc:mysql://spring-mysql-db.ckc2aayaktqk.ap-northeast-2.rds.amazonaws.com:3306/mydatabase
+    url: jdbc:mysql://spring-mysql-db.ckc2aayaktqk.ap-northeast-2.rds.amazonaws.com:3306/spring-mysql-db
     username: dyl0115
     password: endyd132!!
 
