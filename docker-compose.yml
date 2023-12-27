@@ -1,5 +1,6 @@
 # docker-compose.yml은 실제 AWS EB에서 작동시킬거임!
 # AWS의 EB는 RDS를 생성하기 때문에, MySQL 컨테이너를 생성할 필요가 없어서 주석처리 함
+# AWS의 EB는 기본 스펙 상 docker-compose.yml을 실행하는듯
 version: "3.8"
 services:
   app:
