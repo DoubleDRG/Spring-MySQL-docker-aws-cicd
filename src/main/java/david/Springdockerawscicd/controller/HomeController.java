@@ -18,7 +18,7 @@ public class HomeController
     @GetMapping({"/", "/home"})
     public String home()
     {
-        return "Welcome Home";
+        return "Welcome Home!";
     }
 
     @GetMapping("/save/{name}")
