@@ -11,8 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
-      - run: docker build -t doubledrg/spring ./
-      #      - run: docker run --rm doubledrg/spring
+#      - run: docker build -t doubledrg/spring ./
+#      이건 MySQL이 설치되지 않은 CI서버에서 테스트해보는 용도라서
+#      spring프로젝트 + MySQL 컨테이너를 모두 생성하는 docker-compose-dev.yml을 사용해야 함
+      - run: docker-compose-dev up
 
       - name: Generate deployment package
         run: zip -r deploy.zip . -x '*.git*'
