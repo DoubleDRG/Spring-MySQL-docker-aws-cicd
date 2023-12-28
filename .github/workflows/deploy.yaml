@@ -24,8 +24,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: spring-mysql-docker-app
-          environment_name: Spring-mysql-docker-app-env
+          application_name: spring-mysql-docker
+          environment_name: Spring-mysql-docker-env
           existing_bucket_name: elasticbeanstalk-ap-northeast-2-270238917308
           region: ap-northeast-2
           version_label: ${{ github.sha}}
