@@ -1,7 +1,7 @@
 # Spring + MySQL 도커로 AWS에 CI/CD 배포하기 
 ## 전체 구조 + 흐름
 ![image](https://github.com/DoubleDRG/Spring-MySQL-docker-aws-cicd/assets/147648419/88f79308-883a-4656-a434-b79188f4df23)
-- 이해한 것을 바탕으로 그린거라 틀릴수도 있음..
+- 내가 독학하며 이해한 것을 바탕으로 그린거라 틀릴수도 있음..
 
 ## 결과물
 ### /, /home
